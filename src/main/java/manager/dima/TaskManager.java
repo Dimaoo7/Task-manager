@@ -20,8 +20,7 @@ public class TaskManager implements Serializable{
 
     //Показ задач
     public void showTasks() {
-
-            if (tasks.isEmpty()) {
+            if (tasks.isEmpty() || tasks == null) {
                 System.out.println("Список задач пуст.");
             } else {
                 for (Task task : tasks) {
@@ -56,20 +55,28 @@ public class TaskManager implements Serializable{
 
     //Сохранение задач в файл сериализация
     public void saveTasksToFile(String fileName) {
-        try (FileOutputStream fileOutput = new FileOutputStream("ser_obj");
+        try (FileOutputStream fileOutput = new FileOutputStream(fileName);
              ObjectOutputStream objectOutput = new ObjectOutputStream(fileOutput)) {
 
-            objectOutput.writeObject(fileName);
-            System.out.println("Объект успешно сериализован!");
+            objectOutput.writeObject(tasks);
+            System.out.println("Задачи успешно сохранены в файл: " + fileName);
 
         } catch (IOException e) {
-            System.out.println("Ошибка при сериализации: " + e.getMessage());
+            System.out.println("Ошибка при сохранении задач: " + e.getMessage());
         }
     }
 
-    //Загрузить задачи из файла десериализация
-    public void loadTasksFromFile(String filename) {
+    //Загрузка задач с файла
+    public void loadTasksFromFile(String fileName) {
+        try (FileInputStream fileInput = new FileInputStream(fileName);
+             ObjectInputStream objectInput = new ObjectInputStream(fileInput)) {
 
+            tasks = (List<Task>) objectInput.readObject();
+            System.out.println("Задачи успешно загружены из файла: " + fileName);
+
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println("Ошибка при загрузке задач: " + e.getMessage());
+        }
     }
 }
 
