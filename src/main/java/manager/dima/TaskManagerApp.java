@@ -1,7 +1,6 @@
 package manager.dima;
 
-
-public class Main {
+public class TaskManagerApp {
     public static void main(String[] args) {
 
     }
