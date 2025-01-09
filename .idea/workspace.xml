@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c7cbdea-c0c7-4936-bd51-e48de5677837" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/dima/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/dima/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManagerApp.java" afterDir="false" />
+    <list default="true" id="1c7cbdea-c0c7-4936-bd51-e48de5677837" name="Changes" comment="part, forgot about new branch">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManagerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManagerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,23 +22,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Dimaoo7"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dimaoo7&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Dimaoo7/Task-manager.git",
-    "accountId": "cc71338b-c694-4e9b-b06d-b8930a6209a9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dimaoo7/Task-manager.git&quot;,
+    &quot;accountId&quot;: &quot;cc71338b-c694-4e9b-b06d-b8930a6209a9&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2r82UWnZlcX5PEDYaksSSnwMlHr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,9 +52,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TaskManagerApp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/dimak/IdeaProjects/task-manager/src/main/java/manager/dima/Main.java"
@@ -73,11 +78,20 @@
       <option name="project" value="LOCAL" />
       <updated>1735926563276</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="part, forgot about new branch">
+      <option name="closed" value="true" />
+      <created>1736432936961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736432936961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="part, forgot about new branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="part, forgot about new branch" />
   </component>
 </project>

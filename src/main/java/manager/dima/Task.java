@@ -1,9 +1,10 @@
 package manager.dima;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Task {
+public class Task implements Serializable {
     private int id;
     private String name;
     private String about;
