@@ -2,8 +2,11 @@ package manager.dima;
 
 import java.io.*;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class TaskManager implements Serializable{
     public List<Task> tasks;
@@ -23,10 +26,8 @@ public class TaskManager implements Serializable{
             if (tasks.isEmpty() || tasks == null) {
                 System.out.println("Список задач пуст.");
             } else {
-                for (Task task : tasks) {
-                System.out.println(task);
-            }
-
+                tasks.stream().sorted(Comparator.comparing(Task::getDeadLine))
+                        .forEach(System.out::println);
         }
     }
 
@@ -45,6 +46,9 @@ public class TaskManager implements Serializable{
 
     //Удаление задач
     public void deleteTask(int id) {
+
+        tasks.stream();
+
             boolean removed = tasks.removeIf(task -> task.getId() == id);
         if (removed) {
             System.out.println("Задача успешно удалена.");
@@ -78,6 +82,27 @@ public class TaskManager implements Serializable{
             System.out.println("Ошибка при загрузке задач: " + e.getMessage());
         }
     }
+
+    //Найти задачи с ближайшим дедлайном
+    public void findTaskNearDied(List<Task> tasks) {
+        tasks.stream().sorted(Comparator.comparing(Task::getDeadLine))
+                .limit(1)
+                .forEach(System.out::println);
+    }
+
+    //Отсортировать задачи по имени
+    public void sortTaskByName(List<Task> tasks) {
+        tasks.stream().sorted(Comparator.comparing(Task::getName))
+                .forEach(System.out::println);
+    }
+
+
+    //Вывести не выполненые задачи
+    public void showUncompletedTask() {
+        tasks.stream().filter(task -> !task.getDone())
+                .forEach(System.out::println);
+    }
+
 }
 
 
