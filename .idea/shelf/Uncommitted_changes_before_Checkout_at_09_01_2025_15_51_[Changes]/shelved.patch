@@ -1,0 +1,76 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1c7cbdea-c0c7-4936-bd51-e48de5677837\" name=\"Changes\" comment=\"part, forgot about new branch\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/manager/dima/TaskManager.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/manager/dima/TaskManager.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/manager/dima/TaskManagerApp.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/manager/dima/TaskManagerApp.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Dimaoo7&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Dimaoo7/Task-manager.git&quot;,\r\n    &quot;accountId&quot;: &quot;cc71338b-c694-4e9b-b06d-b8930a6209a9&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2r82UWnZlcX5PEDYaksSSnwMlHr\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.TaskManagerApp.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"dev\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/dimak/IdeaProjects/task-manager/src/main/java/manager/dima/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1c7cbdea-c0c7-4936-bd51-e48de5677837\" name=\"Changes\" comment=\"\" />\r\n      <created>1735926400207</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1735926400207</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735926563276</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735926563276</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"part, forgot about new branch\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736432936961</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736432936961</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"init commit\" />\r\n    <MESSAGE value=\"part, forgot about new branch\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"part, forgot about new branch\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b6ba3c8c7b51a9476304582e3b7701474789f701)
++++ b/.idea/workspace.xml	(date 1736434256791)
+@@ -4,11 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1c7cbdea-c0c7-4936-bd51-e48de5677837" name="Changes" comment="part, forgot about new branch">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManager.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManagerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/dima/TaskManagerApp.java" afterDir="false" />
+-    </list>
++    <list default="true" id="1c7cbdea-c0c7-4936-bd51-e48de5677837" name="Changes" comment="All quests have finally been completed." />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -35,12 +31,22 @@
+     &quot;assignee&quot;: &quot;Dimaoo7&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/Dimaoo7/Task-manager.git&quot;,
+-    &quot;accountId&quot;: &quot;cc71338b-c694-4e9b-b06d-b8930a6209a9&quot;
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/Dimaoo7/Task-manager.git",
++    "accountId": "cc71338b-c694-4e9b-b06d-b8930a6209a9"
++  },
++  "recentNewPullRequestHead": {
++    "server": {
++      "useHttp": false,
++      "host": "github.com",
++      "port": null,
++      "suffix": null
++    },
++    "owner": "Dimaoo7",
++    "repository": "Task-manager"
+   }
+-}</component>
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 0
+ }</component>
+@@ -86,12 +92,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1736432936961</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="All quests have finally been completed.">
++      <option name="closed" value="true" />
++      <created>1736434171273</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1736434171273</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="init commit" />
+     <MESSAGE value="part, forgot about new branch" />
+-    <option name="LAST_COMMIT_MESSAGE" value="part, forgot about new branch" />
++    <MESSAGE value="All quests have finally been completed." />
++    <option name="LAST_COMMIT_MESSAGE" value="All quests have finally been completed." />
+   </component>
+ </project>
+\ No newline at end of file

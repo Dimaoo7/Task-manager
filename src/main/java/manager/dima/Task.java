@@ -8,6 +8,19 @@ public class Task implements Serializable {
     private int id;
     private String name;
     private String about;
+    private Boolean isDone;
+
+    public Boolean getDone() {
+        return isDone;
+    }
+
+    public void setDone(Boolean done) {
+        isDone = done;
+    }
+
+    public void markAsDone() {
+        this.isDone = true;
+    }
 
     private enum state {New, IN_PROGRESS, DONE}
 
@@ -71,6 +84,7 @@ public class Task implements Serializable {
         this.id = id;
         this.name = name;
         this.about = about;
+        this.isDone = isDone;
         this.deadLine = deadLine;
     }
 }
