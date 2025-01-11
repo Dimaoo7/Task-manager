@@ -18,6 +18,10 @@ public class Task implements Serializable {
         isDone = done;
     }
 
+    public void markAsDone() {
+        this.isDone = true;
+    }
+
     private enum state {New, IN_PROGRESS, DONE}
 
     private LocalDate deadLine;
@@ -76,7 +80,7 @@ public class Task implements Serializable {
         return deadLine;
     }
 
-    public Task(int id, String name, String about, Boolean isDone, LocalDate deadLine) {
+    public Task(int id, String name, String about, LocalDate deadLine) {
         this.id = id;
         this.name = name;
         this.about = about;
